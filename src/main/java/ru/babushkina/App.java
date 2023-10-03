@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class App
 {
-    public static void main( String[] args )
-    {       Scanner sc = new Scanner(System.in);
-            System.out.println("Enter the day of the week in English: ");
-            String dayOfWeek = sc.nextLine().toLowerCase();
-            String russianDayOfWeek = translateToRussian(dayOfWeek);
-            System.out.println("The day of the week in English: " + russianDayOfWeek);
+    public static void main( String[] args ) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите название дня недели на английском: ");
+        String dayOfWeek = scanner.nextLine().toLowerCase();
+        String russianDayOfWeek = translateToRussian(dayOfWeek);
+        System.out.println("Название дня недели на русском: " + russianDayOfWeek);
     }
 
     private static String translateToRussian(String dayOfWeek) {
