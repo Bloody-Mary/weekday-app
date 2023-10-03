@@ -1,6 +1,5 @@
 package ru.babushkina;
 
-import java.text.DateFormatSymbols;
 import java.util.Scanner;
 
 public class App
